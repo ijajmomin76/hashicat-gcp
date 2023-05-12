@@ -1,4 +1,4 @@
-module "vpc" {
+module "gcp_network" {
   network_name  = "gaurav network"
   project_id = var.project
   subnets=[
